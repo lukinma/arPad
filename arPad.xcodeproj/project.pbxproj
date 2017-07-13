@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC818BFF1F17D63A00E94686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC818BFE1F17D63A00E94686 /* AppDelegate.swift */; };
+		AC818C011F17D63A00E94686 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AC818C001F17D63A00E94686 /* art.scnassets */; };
+		AC818C031F17D63A00E94686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC818C021F17D63A00E94686 /* ViewController.swift */; };
+		AC818C061F17D63A00E94686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC818C041F17D63A00E94686 /* Main.storyboard */; };
+		AC818C081F17D63A00E94686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC818C071F17D63A00E94686 /* Assets.xcassets */; };
+		AC818C0B1F17D63A00E94686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC818C091F17D63A00E94686 /* LaunchScreen.storyboard */; };
+		AC818C161F17D63A00E94686 /* arPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC818C151F17D63A00E94686 /* arPadTests.swift */; };
+		AC818C211F17D63B00E94686 /* arPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC818C201F17D63B00E94686 /* arPadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC818C121F17D63A00E94686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC818BF31F17D63A00E94686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC818BFA1F17D63A00E94686;
+			remoteInfo = arPad;
+		};
+		AC818C1D1F17D63B00E94686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC818BF31F17D63A00E94686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC818BFA1F17D63A00E94686;
+			remoteInfo = arPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC818BFB1F17D63A00E94686 /* arPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC818BFE1F17D63A00E94686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC818C001F17D63A00E94686 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		AC818C021F17D63A00E94686 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC818C051F17D63A00E94686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC818C071F17D63A00E94686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC818C0A1F17D63A00E94686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC818C0C1F17D63A00E94686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC818C111F17D63A00E94686 /* arPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC818C151F17D63A00E94686 /* arPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arPadTests.swift; sourceTree = "<group>"; };
+		AC818C171F17D63A00E94686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC818C1C1F17D63B00E94686 /* arPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC818C201F17D63B00E94686 /* arPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arPadUITests.swift; sourceTree = "<group>"; };
+		AC818C221F17D63B00E94686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC818BF81F17D63A00E94686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC818C0E1F17D63A00E94686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC818C191F17D63A00E94686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC818BF21F17D63A00E94686 = {
+			isa = PBXGroup;
+			children = (
+				AC818BFD1F17D63A00E94686 /* arPad */,
+				AC818C141F17D63A00E94686 /* arPadTests */,
+				AC818C1F1F17D63B00E94686 /* arPadUITests */,
+				AC818BFC1F17D63A00E94686 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC818BFC1F17D63A00E94686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC818BFB1F17D63A00E94686 /* arPad.app */,
+				AC818C111F17D63A00E94686 /* arPadTests.xctest */,
+				AC818C1C1F17D63B00E94686 /* arPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC818BFD1F17D63A00E94686 /* arPad */ = {
+			isa = PBXGroup;
+			children = (
+				AC818BFE1F17D63A00E94686 /* AppDelegate.swift */,
+				AC818C001F17D63A00E94686 /* art.scnassets */,
+				AC818C021F17D63A00E94686 /* ViewController.swift */,
+				AC818C041F17D63A00E94686 /* Main.storyboard */,
+				AC818C071F17D63A00E94686 /* Assets.xcassets */,
+				AC818C091F17D63A00E94686 /* LaunchScreen.storyboard */,
+				AC818C0C1F17D63A00E94686 /* Info.plist */,
+			);
+			path = arPad;
+			sourceTree = "<group>";
+		};
+		AC818C141F17D63A00E94686 /* arPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC818C151F17D63A00E94686 /* arPadTests.swift */,
+				AC818C171F17D63A00E94686 /* Info.plist */,
+			);
+			path = arPadTests;
+			sourceTree = "<group>";
+		};
+		AC818C1F1F17D63B00E94686 /* arPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC818C201F17D63B00E94686 /* arPadUITests.swift */,
+				AC818C221F17D63B00E94686 /* Info.plist */,
+			);
+			path = arPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC818BFA1F17D63A00E94686 /* arPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC818C251F17D63B00E94686 /* Build configuration list for PBXNativeTarget "arPad" */;
+			buildPhases = (
+				AC818BF71F17D63A00E94686 /* Sources */,
+				AC818BF81F17D63A00E94686 /* Frameworks */,
+				AC818BF91F17D63A00E94686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arPad;
+			productName = arPad;
+			productReference = AC818BFB1F17D63A00E94686 /* arPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC818C101F17D63A00E94686 /* arPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC818C281F17D63B00E94686 /* Build configuration list for PBXNativeTarget "arPadTests" */;
+			buildPhases = (
+				AC818C0D1F17D63A00E94686 /* Sources */,
+				AC818C0E1F17D63A00E94686 /* Frameworks */,
+				AC818C0F1F17D63A00E94686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC818C131F17D63A00E94686 /* PBXTargetDependency */,
+			);
+			name = arPadTests;
+			productName = arPadTests;
+			productReference = AC818C111F17D63A00E94686 /* arPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC818C1B1F17D63A00E94686 /* arPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC818C2B1F17D63B00E94686 /* Build configuration list for PBXNativeTarget "arPadUITests" */;
+			buildPhases = (
+				AC818C181F17D63A00E94686 /* Sources */,
+				AC818C191F17D63A00E94686 /* Frameworks */,
+				AC818C1A1F17D63A00E94686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC818C1E1F17D63B00E94686 /* PBXTargetDependency */,
+			);
+			name = arPadUITests;
+			productName = arPadUITests;
+			productReference = AC818C1C1F17D63B00E94686 /* arPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC818BF31F17D63A00E94686 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = xnzr;
+				TargetAttributes = {
+					AC818BFA1F17D63A00E94686 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					AC818C101F17D63A00E94686 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = AC818BFA1F17D63A00E94686;
+					};
+					AC818C1B1F17D63A00E94686 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = AC818BFA1F17D63A00E94686;
+					};
+				};
+			};
+			buildConfigurationList = AC818BF61F17D63A00E94686 /* Build configuration list for PBXProject "arPad" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC818BF21F17D63A00E94686;
+			productRefGroup = AC818BFC1F17D63A00E94686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC818BFA1F17D63A00E94686 /* arPad */,
+				AC818C101F17D63A00E94686 /* arPadTests */,
+				AC818C1B1F17D63A00E94686 /* arPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC818BF91F17D63A00E94686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC818C011F17D63A00E94686 /* art.scnassets in Resources */,
+				AC818C0B1F17D63A00E94686 /* LaunchScreen.storyboard in Resources */,
+				AC818C081F17D63A00E94686 /* Assets.xcassets in Resources */,
+				AC818C061F17D63A00E94686 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC818C0F1F17D63A00E94686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC818C1A1F17D63A00E94686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC818BF71F17D63A00E94686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC818C031F17D63A00E94686 /* ViewController.swift in Sources */,
+				AC818BFF1F17D63A00E94686 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC818C0D1F17D63A00E94686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC818C161F17D63A00E94686 /* arPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC818C181F17D63A00E94686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC818C211F17D63B00E94686 /* arPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC818C131F17D63A00E94686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC818BFA1F17D63A00E94686 /* arPad */;
+			targetProxy = AC818C121F17D63A00E94686 /* PBXContainerItemProxy */;
+		};
+		AC818C1E1F17D63B00E94686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC818BFA1F17D63A00E94686 /* arPad */;
+			targetProxy = AC818C1D1F17D63B00E94686 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC818C041F17D63A00E94686 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC818C051F17D63A00E94686 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC818C091F17D63A00E94686 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC818C0A1F17D63A00E94686 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC818C231F17D63B00E94686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC818C241F17D63B00E94686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC818C261F17D63B00E94686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2B4AFA3CJ2;
+				INFOPLIST_FILE = arPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xnzr.arPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC818C271F17D63B00E94686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2B4AFA3CJ2;
+				INFOPLIST_FILE = arPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xnzr.arPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC818C291F17D63B00E94686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2B4AFA3CJ2;
+				INFOPLIST_FILE = arPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xnzr.arPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arPad.app/arPad";
+			};
+			name = Debug;
+		};
+		AC818C2A1F17D63B00E94686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2B4AFA3CJ2;
+				INFOPLIST_FILE = arPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xnzr.arPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arPad.app/arPad";
+			};
+			name = Release;
+		};
+		AC818C2C1F17D63B00E94686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2B4AFA3CJ2;
+				INFOPLIST_FILE = arPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xnzr.arPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = arPad;
+			};
+			name = Debug;
+		};
+		AC818C2D1F17D63B00E94686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2B4AFA3CJ2;
+				INFOPLIST_FILE = arPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xnzr.arPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = arPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC818BF61F17D63A00E94686 /* Build configuration list for PBXProject "arPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC818C231F17D63B00E94686 /* Debug */,
+				AC818C241F17D63B00E94686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC818C251F17D63B00E94686 /* Build configuration list for PBXNativeTarget "arPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC818C261F17D63B00E94686 /* Debug */,
+				AC818C271F17D63B00E94686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC818C281F17D63B00E94686 /* Build configuration list for PBXNativeTarget "arPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC818C291F17D63B00E94686 /* Debug */,
+				AC818C2A1F17D63B00E94686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC818C2B1F17D63B00E94686 /* Build configuration list for PBXNativeTarget "arPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC818C2C1F17D63B00E94686 /* Debug */,
+				AC818C2D1F17D63B00E94686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC818BF31F17D63A00E94686 /* Project object */;
+}
