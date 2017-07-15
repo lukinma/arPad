@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  arPad
 //
-//  Created by Igor Tsarik on 13.07.17.
 //  Copyright © 2017 xnzr. All rights reserved.
 //
 
